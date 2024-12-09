@@ -14,22 +14,6 @@ This repository demonstrates a complete CI/CD pipeline for a Node.js application
 - **Kubernetes** for deployment.
 - **Telegram** for deployment notifications.
 
-## Directory Structure
-```plaintext
-├── app/                 # Contains the Node.js application.
-│   ├── index.js         # Main application entry point.
-│   ├── package.json     # Application dependencies and scripts.
-│   ├── Dockerfile       # Docker configuration for containerization.
-│   └── tests/           # Contains test files for the app.
-├── k8s/                 # Kubernetes manifests for deployment and service.
-│   ├── deployment.yaml  # Deployment configuration for Kubernetes.
-│   └── service.yaml     # Service configuration for Kubernetes.
-└── .github/
-    └── workflows/
-        └── ci-cd-pipeline.yml   # GitHub Actions workflow file.
-
-Prerequisites
-
 Before setting up the CI/CD pipeline, make sure the following tools are installed and set up on your local machine:
 
     Node.js (LTS version) and npm for managing dependencies.
